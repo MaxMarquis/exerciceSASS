@@ -1,0 +1,5 @@
+$direction: nord, sud, est, ouest
+
+@each $i in $direction
+    .fleche-#{$i}
+        background-image: url(../img/#{$i}.jpg)

@@ -1,0 +1,6 @@
+img {
+  margin-left: auto;
+  display: flex;
+  border-radius: 15%;
+  filter: grayscale(100%);
+}

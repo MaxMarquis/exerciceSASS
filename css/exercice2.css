@@ -1,0 +1,15 @@
+.fleche-nord {
+  background-image: url(../img/nord.jpg);
+}
+
+.fleche-sud {
+  background-image: url(../img/sud.jpg);
+}
+
+.fleche-est {
+  background-image: url(../img/est.jpg);
+}
+
+.fleche-ouest {
+  background-image: url(../img/ouest.jpg);
+}

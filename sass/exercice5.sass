@@ -1,0 +1,9 @@
+@function nombreDeLettreX($string, $lettre)
+    $result: 0
+    @for $i from 1 through str-length($string)
+        @if $lettre == str-slice($string, $i, $i)
+            $result: $result + 1
+    @return $result
+
+body
+    width: nombreDeLettreX("bonjour", "b")

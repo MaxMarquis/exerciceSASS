@@ -1,0 +1,5 @@
+$valeur: ('un':1, 'deux':2, 'trois':3, 'quatre':4, 'cinq':5, 'six':6, 'sept':7, 'huit':8, 'neuf':9, 'dix':10)
+
+@each $nom, $chiffre in $valeur
+    .largeur-#{$nom}
+        width: $chiffre + rem
