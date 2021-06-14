@@ -1,12 +1,13 @@
 @mixin imageAlign($align)
-    @if $align == gauche
+    @if $align == left
         margin-right: auto
-
-    @else if $align == droite
+        display: flex
+    @else
         margin-left: auto
+        display: flex
 
-img
-    @include imageAlign(droite)
-    display: flex
-    border-radius: 15%
-    filter: grayscale(100%)
+.img_left
+    @include imageAlign(left)
+
+.img_right
+    @include imageAlign(right)

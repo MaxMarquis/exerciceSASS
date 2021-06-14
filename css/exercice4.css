@@ -1,6 +1,9 @@
-img {
+.img_left {
+  margin-right: auto;
+  display: flex;
+}
+
+.img_right {
   margin-left: auto;
   display: flex;
-  border-radius: 15%;
-  filter: grayscale(100%);
 }
